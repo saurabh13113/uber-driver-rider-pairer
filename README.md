@@ -1,2 +1,6 @@
-# uber-driver-rider-pairer
-University project that matches up drivers and riders based on locational information
+# uber-driver-rider-pairer 🚙
+# University project that matches up drivers and riders based on locational information
+
+As a software developer, I designed a rider and driver pairing system using Object-Oriented Programming (OOP) principles to simulate a ride-hailing service on a simplified city grid. The system includes four main entities: Riders, Drivers, the Dispatcher, and the Monitor. Riders request trips from their current location to a destination, while Drivers seek assignments from the Dispatcher. The Dispatcher matches Riders with Drivers based on their proximity and availability, and the Monitor tracks all activities, generating reports on system performance.
+
+In this simulation, each Rider and Driver is represented as an object with specific attributes and methods. Riders can request trips and cancel if they wait too long. Drivers request assignments and update their location upon pickup and drop-off. The Dispatcher manages the queue of Rider requests and available Drivers, ensuring efficient matching. Throughout the simulation, the Monitor logs events, enabling analysis of metrics like rider wait times and driver earnings. This OOP-based design encapsulates responsibilities and behaviors, creating a modular and scalable system that effectively models the dynamics of a real-world ride-hailing service.
